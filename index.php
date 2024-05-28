@@ -86,16 +86,16 @@ require_once('connection.php');
           
         </div>
         <div class="content">
-            <h1>Explore he freedom of <br><span>Car rental with <br> <b> SAFFAR </b> </span></h1>
-            <p class="par">Whether you are planning a road trip,<br> need a reliable vehicle for a buisness trip
-                Just rent a car of your wish from our vast collection.<br>Enjoy every moment with your family<br>
-                 Join us to make this family vast.  </p>
+            <h1>Explore the freedom of <br><span>Car rental with <br> <b> SAFFAR </b> </span></h1>
+            <p class="par">Whether you are planning a road trip,<br> need a reliable vehicle for a buisness trip, <br>
+                or just want the convinience of having a car at your <br> 
+                 disposal, we've got your covered. </p>
             <button class="cn"><a href="register.php">JOIN US</a></button>
             <div class="form">
                 <h2>Login Here</h2>
                 <form method="POST"> 
-                <input type="email" name="email" placeholder="Enter Email Here">
-                <input type="password" name="pass" placeholder="Enter Password Here">
+                <input type="email" name="email" placeholder="Enter the Email Here">
+                <input type="password" name="pass" placeholder="Enter the Password Here">
                 <input class="btnn" type="submit" value="Login" name="login"></input>
                 </form>
                 <p class="link">Don't have an account?<br>
@@ -111,5 +111,34 @@ require_once('connection.php');
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <footer>
+    <div class="container">
+        <div class="review-section">
+            <h2>Customer Reviews</h2>
+            <div class="review-box">
+                <div class="review">
+                    <p>"Great service! Will definitely rent from them again."</p>
+                    <span>- John Doe</span>
+                </div>
+            </div>
+            <div class="review-box">
+                <div class="review">
+                    <p>"Easy booking process and excellent customer support."</p>
+                    <span>- Jane Smith</span>
+                </div>
+            </div>
+            <!-- Add more review boxes as needed -->
+        </div>
+        <div class="location-section">
+            <h2>Our Location</h2>
+            <p>123 Main Street, Cityville, State, Zip Code</p>
+        </div>
+        <div class="copyright">
+            <hr class="divider">
+            <p>&copy; 2024 Car Rental Company. All rights reserved.</p>
+        </div>
+    </div>
+  </footer>
+
 </body>
 </html>
