@@ -153,7 +153,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #e4ca45;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -185,7 +185,7 @@ ul li a:hover{
     height: 400px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: 40px;
+    top:40px;
     left: 870px;
     border-radius: 10px;
     padding: 20px;
@@ -300,7 +300,7 @@ ul li a:hover{
 .adminbtn{
     width: 150px;
     height: 40px;
-    background: #ff7200;
+    background: #8b57afeb;
     border:none;
     
     font-size: 18px;
