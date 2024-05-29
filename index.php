@@ -54,12 +54,6 @@ require_once('connection.php');
                     echo '<script>alert("Enter a proper password")</script>';
                 }
 
-
-
-                
-
-
-
             }
             else{
                 echo '<script>alert("enter a proper email")</script>';
@@ -90,7 +84,7 @@ require_once('connection.php');
             <p class="par">Whether you are planning a road trip,<br> need a reliable vehicle for a buisness trip, <br>
                 or just want the convinience of having a car at your <br> 
                  disposal, we've got your covered. </p>
-            <button class="cn"><a href="register.php">JOIN US</a></button>
+            <button class="cn"><a href="register.php"><b>JOIN US</b></a></button>
             <div class="form">
                 <h2>Login Here</h2>
                 <form method="POST"> 

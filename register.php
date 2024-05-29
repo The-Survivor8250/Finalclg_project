@@ -39,24 +39,6 @@ if(isset($_POST['regs']))
         $sql="insert into users (FNAME,LNAME,EMAIL,LIC_NUM,PHONE_NUMBER,PASSWORD,GENDER) values('$fname','$lname','$email','$lic',$ph,'$Pass','$gender')";
         $result = mysqli_query($con,$sql);
           
-
-          // $to_email = $email;
-          // $subject = "NO-REPLY";
-          // $body = "THIS MAIL CONTAINS YOUR AUTHENTICATION DETAILS....\nYour Password is $pass and Your Registered email is $to_email"
-          //          ;
-          // $headers = "From: sender email";
-          
-          // if (mail($to_email, $subject, $body, $headers))
-          
-          // {
-          //     echo "Email successfully sent to $to_email...";
-          // }
-          
-          // else
- 
-          // {
-          // echo "Email sending failed!";
-          // }
         if($result){
             echo '<script>alert("Registration Successful Press ok to login")</script>';
             echo '<script> window.location.href = "index.php";</script>';       
