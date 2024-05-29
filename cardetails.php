@@ -243,7 +243,7 @@ ul li a:hover{
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">CaRs</h2>
+                <h2 class="logo">SAFFAR</h2>
             </div>
             <div class="menu">
                
@@ -269,7 +269,7 @@ ul li a:hover{
         while($result= mysqli_fetch_array($cars))
         {
             // echo $result['CAR_ID'];
-            // echo $result['AVAILABLE'];
+             //echo $result['AVAILABLE'];
             
     ?>    
     
