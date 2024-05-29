@@ -64,10 +64,10 @@ if(isset($_POST['regs']))
 
   <style>
       body{
-        background:  #fdcd3b;
-        background-size: auto;
-         background-position:unset;
-         /* background-repeat: ; */
+        background:url(images/regback.jpg);
+        background-size: cover;
+         background-position:center;
+         background-repeat: no-repeat; 
       }
       input#psw{
     width:300px;
