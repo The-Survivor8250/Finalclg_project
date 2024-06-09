@@ -29,7 +29,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -237,7 +237,7 @@ if(isset($_POST['pay'])){
           <div class="card__col">
             <label for="cardNumber" class="card__label">Card Number</label
             ><input
-              type="text"
+              type="number"
               class="card__input card__input--large"
               id="cardNumber"
               placeholder="xxxx-xxxx-xxxx-xxxx"
@@ -254,7 +254,7 @@ if(isset($_POST['pay'])){
           <div class="card__col">
             <label for="cardExpiry" class="card__label">Expiry Date</label
             ><input
-              type="text"
+              type="number"
               class="card__input"
               id="cardExpiry"
               placeholder="xx/xx"
@@ -266,7 +266,7 @@ if(isset($_POST['pay'])){
           <div class="card__col">
             <label for="cardCcv" class="card__label">CCV</label
             ><input
-              type="password"
+              type="number"
               class="card__input"
               id="cardCcv"
               placeholder="xxx"

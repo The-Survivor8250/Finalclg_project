@@ -1,4 +1,6 @@
-
+*{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body {
 	background: url(/images/fb.jpg);
 	background-position: center;

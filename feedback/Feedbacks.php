@@ -16,6 +16,7 @@
 		background-image:url(Home%20page%20pics/background1.jpeg);
 		background-repeat:no-repeat;
 		background-attachment:fixed;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

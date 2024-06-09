@@ -4,16 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMINISTRATOR</title>
+    <title>Administrator</title>
 </head>
 <body>
+
+
 
 <style>
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+    
+}
+body{
+    background-color:#dbdbdb;
+    
+}
+.body_m{
+    width: 1440px;
+    margin-left: 80px;
+}
+button{
+    color: whitesmoke;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btn_admin:hover{
+    background-color:orange;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+a{
+    color: #0E46A3;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.active:hover{
+    text-transform:uppercase;
+    color: #c96f09;
+}
+.logo {
+    width: 200px;  
+    height: 55px;
+    border-radius: 20px;
+    
+}
+
+
+
 .hai{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%),url("../images/carbg2.jpg");
@@ -32,7 +82,7 @@
 }
 .navbar{
     width: 1200px;
-    height: 75px;
+    height: 100px;
     margin: auto;
 }
 
@@ -44,15 +94,14 @@
 
 .logo{
     color: #ff7200;
-    font-size: 35px;
-    font-family: Arial;
+    font-size: 40px;
     padding-left: 20px;
     float:left;
-    padding-top: 10px;
+     
 
 }
 .menu{
-    width: 400px;
+    width: 500px;
     float: left;
     height: 70px;
 
@@ -61,7 +110,7 @@
 ul{
     float: left;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -83,16 +132,16 @@ ul li a{
 }
 
 .content-table{
-   border-collapse: collapse;
+    border-collapse: collapse;
     
     font-size: 1em;
     /* min-width: 400px; */
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow:0 0  20px rgba(0,0,0,0.15);
-    margin-left : 100px ;
+    margin-left : 20px ;
     margin-top: 25px;
-    width: 1300px;
+    width: 1000px;
     height: 300px;
 }
 .content-table thead tr{
@@ -158,6 +207,10 @@ ul li a{
     
 }
 </style>
+
+
+
+
 <?php
 
 require_once('connection.php');
@@ -168,24 +221,23 @@ $num=mysqli_num_rows($queryy);
 
 ?>
 
+
+
+<div class="body_m">
 <div class="hai">
-        <div class="navbar">
+<header>
+            
             <div class="icon">
                 <h2 class="logo">CaRs</h2>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="adminvehicle.php">VEHICLE MANAGEMENT</a></li>
-                    <li><a href="adminusers.php">USERS</a></li>
-                    <li><a href="admindash.php">FEEDBACKS</a></li>
-                    
-                    <li><a href="adminbook.php">BOOKING REQUEST</a></li>
-                  <li> <button class="nn"><a href="index.php">LOGOUT</a></button></li>
-                </ul>
-            </div>
-         </div>
-
-         </div>
+            <a class="active" href="adminvehicle.php">Vehicle Add</a>
+            <a class="active" href="adminusers.php">Users</a>
+            <a class="active" href="admindash.php">Feedbacks</a>
+            <a class="active" href="adminbook.php">Booking Request</a>
+            <button class="btn_admin"><a href="index.php">Logout</a></button>
+        </header> <hr>
+    
+        </div>
         <div>
             <h1 class="header">BOOKINGS</h1>
             <div>
@@ -207,6 +259,9 @@ $num=mysqli_num_rows($queryy);
                     </tr>
                 </thead>
                 <tbody>
+
+
+
                 <?php
                 
                 
@@ -235,5 +290,6 @@ $num=mysqli_num_rows($queryy);
                 </div>
             </div>
         </div>
+    </div>    
 </body>
 </html>

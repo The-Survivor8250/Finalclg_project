@@ -14,7 +14,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -35,6 +35,7 @@ body{
     width: 1200px;
     height: 75px;
     margin: auto;
+    background-color:whitesmoke;
 }
 
 .icon{
@@ -46,7 +47,7 @@ body{
 .logo{
     color: #ff7200;
     font-size: 35px;
-    font-family: Arial;
+    
     padding-left: 20px;
     float:left;
     padding-top: 10px;
@@ -77,7 +78,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: black;
-    font-family: Arial;
+    
     font-weight: bold;
     transition: 0.4s ease-in-out;
 
@@ -135,7 +136,6 @@ ul li a:hover{
 .utton{
     width: 240px;
     height: 40px;
-   
     background: #ff7200;
     border:none;
     font-size: 18px;
@@ -215,6 +215,9 @@ ul li a:hover{
 </style>
 
 
+
+
+
 <?php 
     require_once('connection.php');
         session_start();
@@ -239,14 +242,19 @@ ul li a:hover{
 
 
 </script>
+
+
+
+
+
   <div class="cd">
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">SAFFAR</h2>
+                <h2 class="logo">SAFAR</h2>
             </div>
             <div class="menu">
-               
+                
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="aboutus2.html">ABOUT</a></li>
@@ -261,8 +269,11 @@ ul li a:hover{
             </div>
             
             
+            
         </div>
-      <div><h1 class="overview">OUR CARS OVERVIEW</h1>
+        <hr>
+
+        <div><h1 class="overview">OUR CARS OVERVIEW</h1>
 
     <ul class="de">
     <?php

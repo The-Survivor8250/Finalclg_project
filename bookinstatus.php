@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOKING STATUS</title>
+    <title>Booking Status</title>
 </head>
 <body>
 <style>
@@ -12,7 +12,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -28,7 +28,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     background: linear-gradient(to top, rgba(255, 251, 251, 1)70%,rgba(250, 246, 246, 1)90%);
     display: flex;
@@ -44,7 +44,7 @@ body{
 
 .box .content{
     margin-left: 5px;
-    font-size: larger;
+    font-size: 16px;
 }
 
 .box .button{
@@ -52,7 +52,7 @@ body{
     height: 40px;
     background: #ff7200;
     border:none;
-    margin-top: 30px;
+    margin-top: ;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -71,8 +71,12 @@ body{
     cursor: pointer;
     color:#fff;
     transition: 0.4s ease;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: ;
+    margin-left: ;
+}
+.utton:hover{
+    color: black;
+    border:2px solid blue;
 }
 .utton a{
     text-decoration: none;

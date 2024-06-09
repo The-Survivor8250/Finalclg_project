@@ -3,6 +3,9 @@
     
   </head>
             <style>
+              *{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              }
             body {
                 text-align: center;
                 /* padding: 40px 0; */
@@ -14,14 +17,14 @@
             }
             h1 {
             color: #88B04B;
-            font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+             
             font-weight: 900;
             font-size: 40px;
             margin-bottom: 10px;
             }
             p {
             color: #404F5E;
-            font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+             
             font-size:20px;
             margin: 0;
             }
@@ -34,7 +37,7 @@
             .card {
                 background: white;
                 padding: 60px;
-                border-radius: 4px;
+                border-radius: 30px;
                 box-shadow: 0 2px 3px #C8D0D8;
                 display: inline-block;
                 margin-top: 100px;
@@ -50,11 +53,17 @@
                 height: 40px;
                 background: #ff7200;
                 border:none;
+                border-radius: 10px;
                 margin-top: 10px;
                 margin-left: 65px;
                 font-size: 18px;
             
 
+            }
+            #back:hover{
+                background-color:white;
+                color:orange;
+                border:2px solid orange;
             }
 
             #back a{
@@ -75,7 +84,10 @@
       </div>
         <h1>Success</h1> 
         <p>We received your rental request;<br/> we'll be in touch shortly!</p>
-        <div class="ba"><button id="back"><a href="cardetails.php">Search Cars</a></button></div>
+        <div class="ba">
+          <button id="back">
+            <a href="cardetails.php">Search Cars</a></button>
+        </div>
         
       </div>
     </body>

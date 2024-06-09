@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAR BOOKING</title>
+    <title>Car Booking</title>
     <!-- <link  rel="stylesheet" href=""> -->
     <script type="text/javascript">
         function preventBack() {
@@ -24,7 +24,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 div.main{
@@ -53,7 +53,7 @@ div.main{
 .btnn a{
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 h2{
@@ -299,7 +299,7 @@ ul li a:hover{
                         <li><a href="aboutus2.html">ABOUT</a></li>
                         <li><a href="#">DESIGN</a></li>
                         <li><a href="contactus2.html">CONTACT</a></li>
-                        <li><button class="nn"><a href="index.html">LOGOUT</a></button></li>
+                        <li><button class="nn"><a href="index.php">LOGOUT</a></button></li>
                         <li><img src="images/profile.png" class="circle" alt="Alps"></li>
                     <li><p class="phello">HELLO! &nbsp;<a id="pname"><?php echo $rows['FNAME']." ".$rows['LNAME']?></a></p></li>
 

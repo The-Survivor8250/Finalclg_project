@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADMINISTRATOR</title>
+    <title>Administrator</title>
 </head>
 <body>
+
+
 <style>
 *{
     margin: 0;
     padding: 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url("../images/regs.jpg");
-    
-    
-    background-size: cover;
-    background-position: center;
-    /* margin-top: 0px; */
+    background-color:#dbdbdb;
     
 }
 .main{
@@ -27,6 +24,7 @@ body{
     margin: 100px auto 0px auto;
     margin-top: 30px;
 }
+
 .btnn{
     width: 240px;
     height: 40px;
@@ -34,7 +32,8 @@ body{
     border:none;
     margin-top: 30px;
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight:600;
     border-radius: 10px;
     cursor: pointer;
     color:#fff;
@@ -55,7 +54,7 @@ body{
 h2{
     text-align: center;
     padding: 20px;
-    font-family: sans-serif;
+    
 
 }
 .register{
@@ -85,7 +84,7 @@ label{
 input#name{
     width:300px;
     border:1px solid #ddd;
-    border-radius: 3px;
+    border-radius: 10px;
     outline: 0;
     padding: 7px;
     background-color: #fff;
@@ -101,10 +100,13 @@ input#name{
     margin-top: 10px;
     margin-left: 20px;
     font-size: 18px;
-   
+    border-radius: 10px;
 
 }
-
+#back:hover{
+    background-color:white;
+    color:orange;
+}
 
 #back a{
     text-decoration: none;
@@ -114,7 +116,7 @@ input#name{
 
 #fam{
     color: #ff7200;
-    font-family: 'Times New Roman';
+    
     font-size: 50px;
     padding-left: 20px;
     margin-top:-10px;
@@ -137,7 +139,7 @@ input#name{
 
 
 
-<button id="back"><a href="adminvehicle.php">HOME</a></button> 
+<button id="back"><a href="adminvehicle.php">Home</a></button> 
     
  <div class="main">
         
@@ -165,7 +167,7 @@ input#name{
             <label>Price : </label>
             <br>
             <input type="number" name="price" min="1"
-            id="name" placeholder="Enter Price Of Car for One Day(in rupees)" required>
+            id="name" placeholder="Enter Price Of Car/day (in rupees)" required>
             <br><br>
 
             <label>Car Image : </label>
@@ -173,11 +175,8 @@ input#name{
             <input type="file" name="image" required>
            <br><br>
 
-            <input type="submit" class="btnn"  value="ADD CAR" name="addcar">
-            
-        
-        
-        </input>
+            <button type="submit" class="btnn"  value="ADD CAR" name="addcar">Add Car</button>
+
             
         </form>
         </div> 
