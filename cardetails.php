@@ -281,7 +281,7 @@ ul li a:hover{
         {
             // echo $result['CAR_ID'];
              //echo $result['AVAILABLE'];
-            
+          
     ?>    
     
     <li>
