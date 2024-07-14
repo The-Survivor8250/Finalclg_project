@@ -174,7 +174,7 @@ ul li a{
 
 
 .header{
-    margin-top: -700px;
+    margin-top: -650px;
     margin-left: 650px;
 }
 
