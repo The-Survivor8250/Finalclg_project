@@ -13,7 +13,7 @@
 		</head>
 	<style>
 	body{
-		background-image:url(Home%20page%20pics/background1.jpeg);
+		background-image:url(/images/carbg.jpg);
 		background-repeat:no-repeat;
 		background-attachment:fixed;
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,13 +32,10 @@ if(isset($_POST['submit'])){
 	$sql="insert into  feedback (EMAIL,COMMENT) values('$email','$comment')";
 	$result = mysqli_query($con,$sql);
 	echo '<script>alert("Feedback Sent Successfully!!THANK YOU!!")</script>';
-	header("Location: ../cardetails.php");
-
+	//header("Location: ../cardetails.php");
 	
 }
-
-
-
+	
 
 
 ?>

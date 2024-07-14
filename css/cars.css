@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+    
+}
+
+
+.body_m{
+    width: 1440px;
+    margin-left: 80px;
+}
+a{
+    color: #0E46A3;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.car-list-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.car-list-section h2 {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.car-list-section h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.car-info h3 {
+    color: #888;
+    font-size: 1rem;
+}
+
+.car-info h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.details-link {
+    color: #e53935;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.details-link:hover {
+    text-decoration: underline;
+}
+
+.rent-button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+.rent-button:hover {
+    background-color: #3700b3;
+}
+
+
+/*Footer css start*/
+footer{
+    display: flex;
+    background-color: rgb(106, 106, 236);
+    color: white;
+    font-weight: 400;
+    border-radius: 20px;
+    padding-top: 20px;
+
+
+} 
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 50px;
+    width: 500px;
+    font-size: 18px;
+}
+.bottom2{
+    width: 500px;
+    margin-right: 10px;
+    
+}
+h3{
+    text-align: center;
+}
+.address {
+    
+    align-items: center;
+    font-weight: 600;
+}
+.icon {
+    margin-right: 10px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.social-media i{
+    margin-left: 20px;
+    
+}
+.social-media  a:hover i{
+    color: white;
+}
