@@ -102,8 +102,8 @@ input#cpsw{
   padding: 20px;
   
   width: 400px;
-  margin-left:1000px;
-  margin-top: -500px;
+  margin-left:-20px;
+  margin-top: 500px;
 }
 
 #message p {
