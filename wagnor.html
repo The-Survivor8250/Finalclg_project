@@ -26,9 +26,15 @@
                 <li><strong>Seater:</strong> 5</li>
                 <!-- Add more details as needed -->
             </ul>
-            <button id="rent-button"><a href="index.php" class="btn">Rent Now</a></button>
+            <button id="rent-button" onclick="showAlert()">Book Now</button>
             <br>
         </section>
     </main>
 </body>
+<script>
+    function showAlert() {
+        alert("Signup or Login to Book car!");
+        window.location.href = "register.php";
+    }
+    </script>
 </html>

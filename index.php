@@ -95,6 +95,11 @@ require_once('connection.php');
             <button class="cn"><a href="register.php"><b>JOIN US</b></a></button>
 
             <div class="form">
+                <h3>Log in to SAFFAR! </h3>
+                <br>
+                <hr>
+                <br>
+                <br>
                 <h2>Login Here</h2>
                 <form method="POST"> 
                 <input type="email" name="email" placeholder="Email">
