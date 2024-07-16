@@ -63,13 +63,20 @@ if(isset($_POST['regs']))
 
 
   <style>
-      body{
-       /* background:url(images/regback.jpg);*/
-        background-size: cover;
-         background-position:center;
-         background-repeat: no-repeat; 
-      }
-      input#psw{
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(images/carr.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+    input#psw{
     width:300px;
     border:1px solid #ddd;
     border-radius: 3px;
@@ -77,7 +84,7 @@ if(isset($_POST['regs']))
     padding: 7px;
     background-color: #fff;
     box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
-}
+ }
 input#cpsw{
     width:300px;
     border:1px solid #ddd;
@@ -125,6 +132,9 @@ input#cpsw{
   left: -35px;
   content: "✖";
 }</style> 
+
+
+
 
     <button id="back"><a href="index.php">HOME</a></button>
     <h1 id="fam">JOIN OUR FAMILY OF CARS!</h1>
@@ -207,6 +217,14 @@ input#cpsw{
   <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
   <p id="number" class="invalid">A <b>number</b></p>
   <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+<br>
+<br>
+<br>
+<div>
+  <br>
+  <br>
+  <br>
 </div>
 <script>
 var myInput = document.getElementById("psw");

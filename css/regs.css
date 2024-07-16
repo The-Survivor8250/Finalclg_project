@@ -1,16 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    /*background-image: url("../images/regs.jpg");*/
-    
-    
-    /* background-size: cover;
-    background-position: center; */
-    /* margin-top: 0px; */
-    
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url(images/carr.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
 }
 .main{
     width: 400px;
@@ -55,7 +59,7 @@ h2{
     border: 1px solid rgba(255,255,255,0.3);
     box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
     color: #fff;
-    margin: auto;
+     
 
 }
 
@@ -108,14 +112,15 @@ input#name{
 
 #fam{
     color: #ff7200;
-    font-family: 'Times New Roman';
+     
     font-size: 50px;
     padding-left: 20px;
-    margin-top:-10px;
+    margin-top:50px;
     text-align: center;
     letter-spacing: 2px;
     display: inline;
-    margin-left: 250px;
+    margin-right: 100px;
+     
 }
 
 .reg{
@@ -131,12 +136,7 @@ input {
     margin-bottom: 16px;
   }
   
-  /* Style the submit button */
-  /* input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-  } */
-  
+ 
   /* Style the container for inputs */
   .container {
     background-color: #f1f1f1;
@@ -192,4 +192,73 @@ input {
 }
 .info-text a:hover {
     color: #FF5733; /* Color on hover */
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
+min-height: 100vh;
+position: relative;
+background-image: url(images/carr.jpg);
+background-repeat: no-repeat;
+background-position: center right;
+background-size: cover;
+display: grid;
+align-items: center;
+grid-template-columns: repeat(2, 1fr);
+}
+input#psw{
+width:300px;
+border:1px solid #ddd;
+border-radius: 3px;
+outline: 0;
+padding: 7px;
+background-color: #fff;
+box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#cpsw{
+width:300px;
+border:1px solid #ddd;
+border-radius: 3px;
+outline: 0;
+padding: 7px;
+background-color: #fff;
+box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+#message {
+display:none;
+background: #f1f1f1;
+color: #000;
+position: relative;
+padding: 20px;
+
+width: 400px;
+margin-left:1000px;
+margin-top: -500px;
+}
+
+#message p {
+padding: 10px 35px;
+font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+color: green;
+}
+
+.valid:before {
+position: relative;
+left: -35px;
+content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+color: red;
+}
+
+.invalid:before {
+position: relative;
+left: -35px;
+content: "✖";
 }
