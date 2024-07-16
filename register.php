@@ -64,7 +64,7 @@ if(isset($_POST['regs']))
 
   <style>
       body{
-        background:url(images/regback.jpg);
+       /* background:url(images/regback.jpg);*/
         background-size: cover;
          background-position:center;
          background-repeat: no-repeat; 
@@ -190,7 +190,10 @@ input#cpsw{
             <br><br>
 
             <input type="submit" class="btnn"  value="REGISTER" name="regs" style="background-color: #ff7200;color: white">
-            
+           
+            <div class="info-text">
+            <p>Have an Account? <a href="/forgot-password">  Login Here</a></p>
+            </div>
         
         
         </input>

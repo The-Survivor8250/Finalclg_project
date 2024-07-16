@@ -4,7 +4,7 @@
 
 }
 body{
-    background-image: url("../images/regs.jpg");
+    /*background-image: url("../images/regs.jpg");*/
     
     
     /* background-size: cover;
@@ -19,7 +19,7 @@ body{
 }
 .btnn{
     width: 240px;
-    height: 40px;
+    /*height: 40px;*/
     background: #ff7200;
     border:none;
     margin-top: 30px;
@@ -28,9 +28,12 @@ body{
     border-radius: 10px;
     cursor: pointer;
     color:#fff;
-    transition: 0.4s ease;
+    /*transition: 0.4s ease;*/
 }
 
+.btnn:hover {
+  background-color: #45a049; /* Hover background color */
+}
 
 .btnn a{
     text-decoration: none;
@@ -176,3 +179,17 @@ input {
     left: -35px;
     content: "&#10006;";
   }
+
+  .info-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.info-text a {
+    color: #007BFF; /* Default link color */
+    text-decoration: none;
+}
+.info-text a:hover {
+    color: #FF5733; /* Color on hover */
+}

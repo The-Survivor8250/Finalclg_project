@@ -283,7 +283,7 @@ require_once('connection.php');
                 <div class="rev-img">
                     <img src="images/person 1.jpg" alt="">
                 </div>
-                <h2>Someone Name</h2>
+                <h2>Alok Sharma</h2>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -291,16 +291,17 @@ require_once('connection.php');
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star-half'></i>
                 </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem tenetur at excepturi
-                    obcaecati ut praesentium aut maiores eos distinctio neque, sed ex adipisci quae? Enim consequatur
-                    labore nesciunt cum officia.</p>
+                <p>Thankyou for providing unlimited kilometers. Our road trip with friends was so stress free and fun 
+                    because we knew we did not have to pay anything over the money each of us.
+                    <b>Ujjian, India</b>
+                </p>
             </div>
 
             <div class="box">
                 <div class="rev-img">
                     <img src="images/person 3.jpg" alt="">
                 </div>
-                <h2>Someone Name</h2>
+                <h2>Riya Sharma</h2>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -308,16 +309,16 @@ require_once('connection.php');
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star-half'></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam repellendus adipisci, sunt
-                    cum iste a assumenda excepturi nemo temporibus vel ad, aut illo ducimus vero esse dolorem ipsum
-                    fugiat.</p>
+                <p>I love the service. The cars were clean and the owner was polite. Thank you for the surprise gift in your car. Great! 
+                    <b>Siliguri, India</b>
+                </p>
             </div>
 
             <div class="box">
                 <div class="rev-img">
                     <img src="images/person 2.jpg" alt="">
                 </div>
-                <h2>Someone Name</h2>
+                <h2>Hrittik Das</h2>
                 <div class="stars">
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
@@ -325,9 +326,10 @@ require_once('connection.php');
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star-half'></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorem ut minima recusandae minus
-                    accusantium voluptatem beatae? Totam id nemo, optio ea quas mollitia. Aperiam repellendus architecto
-                    consequuntur iusto ratione!</p>
+                <p>Cheapest yet the most wonderful cars. I loved how much Safar provides best quality with lowest prices. Great
+                    fun and amazing cars.  Hepls lot for us and others. Great job! Thanks
+                    <b>Delhi, India</b>
+                </p>
             </div>
 
 
