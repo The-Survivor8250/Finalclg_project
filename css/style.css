@@ -19,6 +19,7 @@ header{
      
     
 }
+
 body{
    background-color: whitesmoke;
     
@@ -658,8 +659,7 @@ h3{
 }
 
 /*date time*/
-.date-time {
-    
+.datetime {
     font-size: 24px;
     font-weight: bold;
     margin-top: 20px;
@@ -668,5 +668,6 @@ h3{
     padding: 10px 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    display: flex;
+    justify-content: center; /* Center items vertically */
 }

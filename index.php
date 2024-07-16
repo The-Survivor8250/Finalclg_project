@@ -76,13 +76,14 @@ require_once('connection.php');
                     <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
                 </a>
             </div>
-            <a class="active" href="cars.html">Cars</a>
+            <a class="active" href="#">Cars</a>
             <a class="active" href="contact_3.html">Contact Us</a>
             <a class="active" href="aboutus.html ">About Us</a>
             <a class="active" href="security_p.html">Security Policy</a>
             <button class="btn_admin"><a href="adminlogin.php">Admin Login</a></button>
         </header> <hr>
-        <div class="date-time" id="date-time"></div>
+
+        <div id="datetime" class="datetime"></div>
             
         
         </div>
@@ -156,7 +157,7 @@ require_once('connection.php');
                 <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
                 <h3>Maruti Suzuki</h3>
                 <h2>Wagon R</h2>
-                <a href="#" class="details-link">View Details</a>
+                <a href="wagnor.html" class="details-link">View Details</a>
                 <button class="rent-button">Rent Now</button>
             </div>
             <div class="car-item">
@@ -378,17 +379,24 @@ require_once('connection.php');
 
     
 </body>
+
 <script>
-    function updateTime() {
-        const now = new Date();
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        const timeString = now.toLocaleTimeString();
-        const dateString = now.toLocaleDateString(undefined, options);
-        
-        document.getElementById('date-time').textContent = ${dateString}, ${timeString};
-    }
-    
-    setInterval(updateTime, 1000);
-    updateTime();  // Initial call to display date and time immediately
-</script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                weekday: 'long',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+            };
+            document.getElementById('datetime').innerText = now.toLocaleString('en-US', options);
+        }
+
+        setInterval(updateDateTime, 1000);
+        updateDateTime(); // Initial call
+    </script>
+
 </html>

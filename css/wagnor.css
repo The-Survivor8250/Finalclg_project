@@ -1,0 +1,74 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:rgb(224, 202, 202);
+    margin: 20px;
+}
+
+header {
+    background-color: #f5f0f0;
+    color: #0c0c0c;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f5f0f0;
+    padding: 20px;
+    border: 1px solid #f7f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.car-details {
+    text-align: center;
+}
+
+.car-details img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.car-details ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.car-details ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(106, 19, 19);
+    color: #fff;
+}
+
+button{
+    padding: 10px 10px;
+}
+
+button#rent-button:hover{
+    background-color: #0056b3;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
