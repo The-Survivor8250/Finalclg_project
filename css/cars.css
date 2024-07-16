@@ -1,14 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
+
 
 *{
     margin: 0;
@@ -16,21 +6,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
-header{
-    background-color:whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    
-    
-}
 
 
-.body_m{
-    width: 1440px;
-    margin-left: 80px;
-}
+
 a{
     color: #0E46A3;
     font-size: 18px;
@@ -123,60 +101,3 @@ a{
 
 
 /*Footer css start*/
-footer{
-    display: flex;
-    background-color: rgb(106, 106, 236);
-    color: white;
-    font-weight: 400;
-    border-radius: 20px;
-    padding-top: 20px;
-
-
-} 
-
-
-.bottom{
-    display: flex;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 50px;
-    width: 500px;
-    font-size: 18px;
-}
-.bottom2{
-    width: 500px;
-    margin-right: 10px;
-    
-}
-h3{
-    text-align: center;
-}
-.address {
-    
-    align-items: center;
-    font-weight: 600;
-}
-.icon {
-    margin-right: 10px;
-}
-
-.icon img {
-    width: 40px;
-    height: 40px;
-}
-
-.copyright {
-    text-align: center;
-    margin-top: 200px;
-    font-size: 14px;
-    font-weight: 600;
-    width: 600px;
-    margin-bottom: 20px;
-}
-.social-media i{
-    margin-left: 20px;
-    
-}
-.social-media  a:hover i{
-    color: white;
-}

@@ -11,7 +11,10 @@
         }
     </script>
     <link  rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cars.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script type="text/javascript">
         function preventBack() {
             window.history.forward(); 
@@ -22,6 +25,7 @@
         window.onunload = function () { null };
     </script>
 </head>
+
 <body>
 
 
@@ -72,11 +76,13 @@ require_once('connection.php');
                     <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
                 </a>
             </div>
+            <a class="active" href="cars.html">Cars</a>
             <a class="active" href="contact_3.html">Contact Us</a>
             <a class="active" href="aboutus.html ">About Us</a>
             <a class="active" href="security_p.html">Security Policy</a>
             <button class="btn_admin"><a href="adminlogin.php">Admin Login</a></button>
         </header> <hr>
+        <div class="date-time" id="date-time"></div>
             
         
         </div>
@@ -99,7 +105,241 @@ require_once('connection.php');
                 
             </div>
         </div>
-    </div>
+    </div> 
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <section class="for booking" id="for booking">
+        <div class="heading">
+            <span>How Its Work</span>
+            <h1>Rent With 3 Easy Steps</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class='bx bxs-map'></i>
+                <h2>Choose A Location</h2>
+                <p>Choose your location and <br> find your best car.</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-calendar-check'></i>
+                <h2>Pick-Up Date</h2>
+                <p>Select your pick-up date and time <br> to book your car.</p>
+            </div>
+
+            <div class="box">
+                <i class='bx bxs-calendar-star'></i>
+                <h2>Book A Car</h2>
+                <p>We will deliver it directly to you.</p>
+            </div>
+
+
+        </div>
+
+    </section> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+
+    <section class="car-list-section">
+        <h2>Best Services</h2>
+        <h1>Explore Our Top Deals From Top Rated Dealers</h1>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
+                <h3>Maruti Suzuki</h3>
+                <h2>Wagon R</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
+                <h3>Maruti Suzuki</h3>
+                <h2>Baleno</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 3.jpeg" alt="Tata Safari">
+                <h3>Tata</h3>
+                <h2>Safari</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
+                <h3>Mahindra</h3>
+                <h2>Scorpio</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
+                <h3>Maruti Suzuki</h3>
+                <h2>Wagon R</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
+                <h3>Maruti Suzuki</h3>
+                <h2>Baleno</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 3.jpeg" alt="Tata Safari">
+                <h3>Tata</h3>
+                <h2>Safari</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
+                <h3>Mahindra</h3>
+                <h2>Scorpio</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
+                <h3>Maruti Suzuki</h3>
+                <h2>Wagon R</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+            <div class="car-item">
+                <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
+                <h3>Maruti Suzuki</h3>
+                <h2>Baleno</h2>
+                <a href="#" class="details-link">View Details</a>
+                <button class="rent-button">Rent Now</button>
+            </div>
+        </div>
+    </section> 
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <section class="about us" id="about us">
+        <div class="heading">
+             
+            <h1>Best Customer Experience</h1>
+        </div>
+        <br>
+        <br>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="images/for about.jpg" alt="">
+            </div>
+            <div class="about-text">
+                
+
+                <p>SAFAR.COM Self Drive Cars is a self drive brand owned by ORIX, Japan’s second largest self drive car
+                    rental company currently managing more than 63,000 cars in our fleet in Japan. With SAFAR.COM, we
+                    endeavor to provide Indian users the Best in World Japanese service and technology at Indian prices.
+                    SAFAR.COM is currently present in 16 Indian cities including Bangalore, Pune, Mumbai, Delhi-NCR,
+                    Hyderabad, Chennai, Kolkata, Jaipur, Jodhpur, Indore, Chandigarh, Amritsar, Dehradun, Rishikesh,
+                    Haridwar.and Udaipur.</p>
+                <p>Now that we are here, you don’t need to look anywhere else for your need of self drive car rentals –
+                    be it hatchbacks, sedans, safari, SUVs, MUVs or luxury cars.</p>
+                </p>
+                <p> Having your friends and family coming over for a long weekend? Bored of driving your own vehicle and
+                    wanting to try your hands on a different car? Used to owning your own car but somehow stranded
+                    without one? Peak hour rush in all modes of public transport horrifying you? Or just afraid of
+                    running the risk of being fleeced by local autowallahs and taxiwallahs in a new town? Whatever your
+                    reason may be, SAFAR.COM is your default choize to address all these reasons.</p>
+                </p>
+                <p>You can get your choize of self-drive car hand delivered at your doorstep, your office or at your
+                    airport’s arrival terminal with our home and airport delivery options.</p>
+                <p>So what are you waiting for? Time to book and ride!</p>
+                <p></p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>Whats Our Customer Say</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="images/person 1.jpg" alt="">
+                </div>
+                <h2>Someone Name</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem tenetur at excepturi
+                    obcaecati ut praesentium aut maiores eos distinctio neque, sed ex adipisci quae? Enim consequatur
+                    labore nesciunt cum officia.</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="images/person 3.jpg" alt="">
+                </div>
+                <h2>Someone Name</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam repellendus adipisci, sunt
+                    cum iste a assumenda excepturi nemo temporibus vel ad, aut illo ducimus vero esse dolorem ipsum
+                    fugiat.</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="images/person 2.jpg" alt="">
+                </div>
+                <h2>Someone Name</h2>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorem ut minima recusandae minus
+                    accusantium voluptatem beatae? Totam id nemo, optio ea quas mollitia. Aperiam repellendus architecto
+                    consequuntur iusto ratione!</p>
+            </div>
+
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    
+    
+    
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
     <footer >
@@ -132,7 +372,21 @@ require_once('connection.php');
             
             
         </footer>
-    </div>    
+    </div>  
 
+    
 </body>
+<script>
+    function updateTime() {
+        const now = new Date();
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const timeString = now.toLocaleTimeString();
+        const dateString = now.toLocaleDateString(undefined, options);
+        
+        document.getElementById('date-time').textContent = ${dateString}, ${timeString};
+    }
+    
+    setInterval(updateTime, 1000);
+    updateTime();  // Initial call to display date and time immediately
+</script>
 </html>
