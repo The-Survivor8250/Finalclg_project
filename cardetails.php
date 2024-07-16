@@ -270,7 +270,8 @@ ul li a:hover{
             
             
             
-        </div>
+        </div> 
+        <br>
         <hr>
 
         <div><h1 class="overview">OUR CARS OVERVIEW</h1>
