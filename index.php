@@ -95,7 +95,7 @@ require_once('connection.php');
             <button class="cn"><a href="register.php"><b>JOIN US</b></a></button>
 
             <div class="form">
-                <h3>Log in to SAFFAR! </h3>
+                <h3>Log in to SAFAR! </h3>
                 <br>
                 <hr>
                 <br>
@@ -169,24 +169,52 @@ require_once('connection.php');
                 <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
                 <h3>Maruti Suzuki</h3>
                 <h2>Baleno</h2>
-                <a href="#" class="details-link">View Details</a>
+                <a href="baleno.html" class="details-link">View Details</a>
                  
             </div>
             <div class="car-item">
                 <img src="images/car 3.jpeg" alt="Tata Safari">
                 <h3>Tata</h3>
                 <h2>Safari</h2>
-                <a href="#" class="details-link">View Details</a>
+                <a href="safari.html" class="details-link">View Details</a>
                  
             </div>
             <div class="car-item">
-                <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
+                <img src="images/car 4.jpeg" alt="Mahindra Scorpio">
                 <h3>Mahindra</h3>
                 <h2>Scorpio</h2>
-                <a href="#" class="details-link">View Details</a>
+                <a href="scorpio.html" class="details-link">View Details</a>
                  
             </div>
             <div class="car-item">
+                <img src="images/lambogini.jpeg" alt="Lambogini Huracane EVO">
+                <h3>Lambogini</h3>
+                <h2>Huracan EVO</h2>
+                <a href="lambogini.html" class="details-link">View Details</a>
+                 
+            </div>
+            <div class="car-item">
+                <img src="images/porsche.jpeg" alt="Porsche 718 Boxter">
+                <h3>Porsche</h3>
+                <h2>718 Boxter</h2>
+                <a href="porsche.html" class="details-link">View Details</a>
+                 
+            </div>
+            <div class="car-item">
+                <img src="images/swift.jpeg" alt="Tata Safari">
+                <h3>Swift Maruti</h3>
+                <h2>Maruti Swift XZI</h2>
+                <a href="swift.html" class="details-link">View Details</a>
+                 
+            </div>
+            <div class="car-item">
+                <img src="images/mahindra tuv.jpeg" alt="Mahindra TUV">
+                <h3>Mahindra</h3>
+                <h2>Mahinfra TUV 300</h2>
+                <a href="mahindratuv.html" class="details-link">View Details</a>
+                 
+            </div>
+            <!-- <div class="car-item">
                 <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
                 <h3>Maruti Suzuki</h3>
                 <h2>Wagon R</h2>
@@ -199,35 +227,7 @@ require_once('connection.php');
                 <h2>Baleno</h2>
                 <a href="#" class="details-link">View Details</a>
                  
-            </div>
-            <div class="car-item">
-                <img src="images/car 3.jpeg" alt="Tata Safari">
-                <h3>Tata</h3>
-                <h2>Safari</h2>
-                <a href="#" class="details-link">View Details</a>
-                 
-            </div>
-            <div class="car-item">
-                <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
-                <h3>Mahindra</h3>
-                <h2>Scorpio</h2>
-                <a href="#" class="details-link">View Details</a>
-                 
-            </div>
-            <div class="car-item">
-                <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
-                <h3>Maruti Suzuki</h3>
-                <h2>Wagon R</h2>
-                <a href="#" class="details-link">View Details</a>
-                 
-            </div>
-            <div class="car-item">
-                <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
-                <h3>Maruti Suzuki</h3>
-                <h2>Baleno</h2>
-                <a href="#" class="details-link">View Details</a>
-                 
-            </div>
+            </div> -->
         </div>
     </section> 
     <br>

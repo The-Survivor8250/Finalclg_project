@@ -31,6 +31,7 @@ body{
 }
 button{
     color: whitesmoke;
+    background: #ff7200;
     height: 50px;
     width: 150px;
     border-radius: 10px;
@@ -225,7 +226,7 @@ $num=mysqli_num_rows($queryy);
             <a class="active" href="adminusers.php">Users</a>
             <a class="active" href="admindash.php">Feedbacks</a>
             <a class="active" href="adminbook.php">Booking Request</a>
-            <button class="btn_admin"><a href="index.php">Logout</a></button>
+            <button class="btn_admin" onclick="logout()">Logout</a></button>
         </header> <hr>
 
 
@@ -263,4 +264,10 @@ $num=mysqli_num_rows($queryy);
         </div>
     </div>
 </body>
+<script>
+    function logout() {
+        alert("Are you sure you want to Logout? ADMIN?");
+        window.location.href = "index.php";
+    }
+</script>
 </html>

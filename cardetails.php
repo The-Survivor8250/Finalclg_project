@@ -169,7 +169,7 @@ ul li a:hover{
 
 .nn{
     width:100px;
-    /* background: #ff7200; */
+    background: #ff7200; 
     border:none;
     height: 40px;
     font-size: 18px;
@@ -179,6 +179,10 @@ ul li a:hover{
     transition: 0.4s ease;
 
 }
+
+.nn:hover {
+            background-color: #C70039;
+            color: #fff;}
 
 
 .nn a{
@@ -261,7 +265,7 @@ ul li a:hover{
                     
                     <li><a href="contactus2.html">CONTACT</a></li>
                     <li><a href="feedback/Feedbacks.php">FEEDBACK</a></li>
-                    <li><button class="nn"><a href="index.php">LOGOUT</a></button></li>
+                    <li><button class="nn" onclick="logout()">LOGOUT</button></li>
                     <li><img src="images/profile.png" class="circle" alt="Alps"></li>
                     <li><p class="phello">HELLO! &nbsp;<a id="pname"><?php echo $rows['FNAME']." ".$rows['LNAME']?></a></p></li>
                     <li><a id="stat" href="bookinstatus.php">BOOKING STATUS</a></li>
@@ -367,4 +371,10 @@ ul li a:hover{
     
      
 </body>
+<script>
+    function logout() {
+        alert("Are you sure you want to Logout?");
+        window.location.href = "index.php";
+    }
+</script>
 </html>

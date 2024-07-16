@@ -8,10 +8,16 @@
 </head>
 <body>
 <style>
+
+    body{
+        background-image: url(images/cancel.jpg);
+        background-repeat: no-repeat; /* Prevent the image from repeating */
+        background-size: cover; /* Optional: makes the image cover the entire background */
+    }
     .form{
         align-content: center;
-        margin-left: 350px;
-        margin-top: 150px;
+        margin-left: 400px;
+        margin-top: 300px;
     }
     .hai{
         width: 200px;
