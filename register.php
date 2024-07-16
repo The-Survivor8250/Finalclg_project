@@ -192,7 +192,7 @@ input#cpsw{
             <input type="submit" class="btnn"  value="REGISTER" name="regs" style="background-color: #ff7200;color: white">
            
             <div class="info-text">
-            <p>Have an Account? <a href="/forgot-password">  Login Here</a></p>
+            <p>Have an Account? <a href="index.php">  Login Here</a></p>
             </div>
         
         
