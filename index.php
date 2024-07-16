@@ -158,70 +158,70 @@ require_once('connection.php');
                 <h3>Maruti Suzuki</h3>
                 <h2>Wagon R</h2>
                 <a href="wagnor.html" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                
             </div>
             <div class="car-item">
                 <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
                 <h3>Maruti Suzuki</h3>
                 <h2>Baleno</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 3.jpeg" alt="Tata Safari">
                 <h3>Tata</h3>
                 <h2>Safari</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
                 <h3>Mahindra</h3>
                 <h2>Scorpio</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
                 <h3>Maruti Suzuki</h3>
                 <h2>Wagon R</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
                 <h3>Maruti Suzuki</h3>
                 <h2>Baleno</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 3.jpeg" alt="Tata Safari">
                 <h3>Tata</h3>
                 <h2>Safari</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 5.jpeg" alt="Mahindra Scorpio">
                 <h3>Mahindra</h3>
                 <h2>Scorpio</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 1.jpeg" alt="Maruti Suzuki Wagon R">
                 <h3>Maruti Suzuki</h3>
                 <h2>Wagon R</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
             <div class="car-item">
                 <img src="images/car 2.jpeg" alt="Maruti Suzuki Baleno">
                 <h3>Maruti Suzuki</h3>
                 <h2>Baleno</h2>
                 <a href="#" class="details-link">View Details</a>
-                <button class="rent-button">Rent Now</button>
+                 
             </div>
         </div>
     </section> 
