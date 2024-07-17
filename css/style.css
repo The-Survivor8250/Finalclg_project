@@ -592,6 +592,10 @@ a{
 .reviews-container .box .stars .bx {
     color: var(--main-color);
 }
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
 /*Footer css start*/
 
