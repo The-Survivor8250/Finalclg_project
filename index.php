@@ -70,13 +70,13 @@ require_once('connection.php');
 <div class="body_m">
 <div class="hai">
     <div  class="main">
-        <header>
+        <header id="header">
             <div class="logo-container">
                 <a href="index.php">
                     <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
                 </a>
             </div>
-            <a class="active" href="#">Cars</a>
+            <a class="active" href="#car-list-section">Cars</a>
             <a class="active" href="contact_3.html">Contact Us</a>
             <a class="active" href="aboutus.html ">About Us</a>
             <a class="active" href="security_p.html">Security Policy</a>
@@ -154,7 +154,7 @@ require_once('connection.php');
         <br>
         <br>
 
-    <section class="car-list-section">
+    <section class="car-list-section" id="car-list-section">
         <h2>Best Services</h2>
         <h1>Explore Our Top Deals From Top Rated Dealers</h1>
         <div class="car-list">
