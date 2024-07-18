@@ -246,7 +246,7 @@ $num=mysqli_num_rows($queryy);
 <header>
             
             <div class="icon">
-                <h2 class="logo">SAfAR</h2>
+                <h2 class="logo">SAFAR</h2>
             </div>
             <a class="active" href="adminvehicle.php">Vehicle Add</a>
             <a class="active" href="adminusers.php">Users</a>
