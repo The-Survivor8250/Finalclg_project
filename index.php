@@ -99,7 +99,6 @@ require_once('connection.php');
                 <br>
                 <hr>
                 <br>
-                <br>
                 <h2>Login Here</h2>
                 <form method="POST"> 
                 <input type="email" name="email" placeholder="Email">
