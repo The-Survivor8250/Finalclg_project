@@ -18,6 +18,7 @@
 body{
     background: url("images/carbg2.jpg");
     background-position: center;
+    background-repeat: no-repeat;
    
 }
 .box{
@@ -52,7 +53,7 @@ body{
     height: 40px;
     background: #ff7200;
     border:none;
-    margin-top: ;
+    margin-top: 0px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
@@ -71,8 +72,8 @@ body{
     cursor: pointer;
     color:#fff;
     transition: 0.4s ease;
-    margin-top: ;
-    margin-left: ;
+    margin-top:0px ;
+    margin-left: 0px;
 }
 .utton:hover{
     color: black;
