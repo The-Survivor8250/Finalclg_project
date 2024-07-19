@@ -70,7 +70,7 @@ require_once('connection.php');
 <div class="body_m">
 <div class="hai">
     <div  class="main">
-        <header id="header">
+         <header id="header">
             <div class="logo-container">
                 <a href="index.php">
                     <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
@@ -81,7 +81,7 @@ require_once('connection.php');
             <a class="active" href="aboutus.html ">About Us</a>
             <a class="active" href="security_p.html">Security Policy</a>
             <button class="btn_admin"><a href="adminlogin.php">Admin Login</a></button>
-        </header> <hr>
+         </header> <hr>
 
         <div id="datetime" class="datetime"></div>
             
