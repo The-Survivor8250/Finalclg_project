@@ -73,7 +73,7 @@ require_once('connection.php');
          <header id="header">
             <div class="logo-container">
                 <a href="index.php">
-                    <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
+                    <img src="images/safar_logo.jpg " alt="Website Logo" class="logo">
                 </a>
             </div>
             <a class="active" href="#car-list-section">Cars</a>
