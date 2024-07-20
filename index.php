@@ -371,7 +371,7 @@ require_once('connection.php');
                     <a href="https://www.google.com/maps/place/Your+Location" target="_blank"><i class="fas fa-map-marker-alt"></i> SHERRON Auto Infrastructure Services Limited.
                     Plot No-87 , Marol Co-Operative Industrial Estate, Marol Maroshi Road, Andheri(E), Mumbai, Maharashtra 400059</a><br> <br>
                     <a href="tel:+91 99 3330 1920"><i class="fas fa-phone"></i> +91 99 3330 1920</a> <br> <br>
-                    <a href="mailto:carrental@sherronindia.com"><i class="fas fa-envelope"></i> carrental@sherronindia.com</a>
+                    <a href="mailto:carrentalsherronindia@gmail.com"><i class="fas fa-envelope"></i> carrentalsherronindia@gmail.com</a>
                 </address>
             </div>
             
