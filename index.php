@@ -70,10 +70,10 @@ require_once('connection.php');
 <div class="body_m">
 <div class="hai">
     <div  class="main">
-        <header id="header">
+         <header id="header">
             <div class="logo-container">
                 <a href="index.php">
-                    <img src="images/safar_logo.jpg" alt="Website Logo" class="logo">
+                    <img src="images/safar_logo.jpg " alt="Website Logo" class="logo">
                 </a>
             </div>
             <a class="active" href="#car-list-section">Cars</a>
@@ -81,7 +81,7 @@ require_once('connection.php');
             <a class="active" href="aboutus.html ">About Us</a>
             <a class="active" href="security_p.html">Security Policy</a>
             <button class="btn_admin"><a href="adminlogin.php">Admin Login</a></button>
-        </header> <hr>
+         </header> <hr>
 
         <div id="datetime" class="datetime"></div>
             
@@ -371,7 +371,7 @@ require_once('connection.php');
                     <a href="https://www.google.com/maps/place/Your+Location" target="_blank"><i class="fas fa-map-marker-alt"></i> SHERRON Auto Infrastructure Services Limited.
                     Plot No-87 , Marol Co-Operative Industrial Estate, Marol Maroshi Road, Andheri(E), Mumbai, Maharashtra 400059</a><br> <br>
                     <a href="tel:+91 99 3330 1920"><i class="fas fa-phone"></i> +91 99 3330 1920</a> <br> <br>
-                    <a href="mailto:carrental@sherronindia.com"><i class="fas fa-envelope"></i> carrental@sherronindia.com</a>
+                    <a href="mailto:carrentalsherronindia@gmail.com"><i class="fas fa-envelope"></i> carrentalsherronindia@gmail.com</a>
                 </address>
             </div>
             
